@@ -1,0 +1,51 @@
+ExceptionList
+	RecoverableException
+			File:CHARACTER:C:\ci\product-build\WMB\src\DataFlowEngine\MessageServices\ImbDataFlowNode.cpp
+			Line:INTEGER:1867
+			Function:CHARACTER:ImbDataFlowNode::createExceptionList
+			Type:CHARACTER:ComIbmMQInputNode
+			Name:CHARACTER:msg1#FCMComposite_1_2
+			Label:CHARACTER:msg1.MQ Input
+			Catalog:CHARACTER:BIPmsgs
+			Severity:INTEGER:3
+			Number:INTEGER:2230
+			Text:CHARACTER:Node throwing exception
+			Insert
+					Type:INTEGER:14
+					Text:CHARACTER:msg1.MQ Input
+			RecoverableException
+					File:CHARACTER:C:\ci\product-build\WMB\src\DataFlowEngine\TemplateNodes\ImbOutputTemplateNode.cpp
+					Line:INTEGER:283
+					Function:CHARACTER:ImbOutputTemplateNode::processMessageAssemblyToFailure
+					Type:CHARACTER:ComIbmMQOutputNode
+					Name:CHARACTER:msg1#FCMComposite_1_3
+					Label:CHARACTER:msg1.MQ Output
+					Catalog:CHARACTER:BIPmsgs
+					Severity:INTEGER:3
+					Number:INTEGER:2230
+					Text:CHARACTER:Caught exception and rethrowing
+					Insert
+							Type:INTEGER:14
+							Text:CHARACTER:msg1.MQ Output
+					ParserException
+							File:CHARACTER:C:\ci\product-build\WMB\src\MTI\MTIforBroker\JSON\ImbJSONParser.cpp
+							Line:INTEGER:621
+							Function:CHARACTER:ImbJSONParser::refreshBitStreamFromElementsCommon
+							Type:CHARACTER:ComIbmMQInputNode
+							Name:CHARACTER:msg1#FCMComposite_1_2
+							Label:CHARACTER:msg1.MQ Input
+							Catalog:CHARACTER:BIPmsgs
+							Severity:INTEGER:3
+							Number:INTEGER:5706
+							Text:CHARACTER:JSON writing errors have occurred
+							ParserException
+									File:CHARACTER:C:\ci\product-build\WMB\src\MTI\MTIforBroker\JSON\ImbJSONWriter.cpp
+									Line:INTEGER:275
+									Function:CHARACTER:ImbJSONWriter::writeBuffer
+									Type:CHARACTER:ComIbmMQInputNode
+									Name:CHARACTER:msg1#FCMComposite_1_2
+									Label:CHARACTER:msg1.MQ Input
+									Catalog:CHARACTER:BIPmsgs
+									Severity:INTEGER:3
+									Number:INTEGER:5708
+									Text:CHARACTER:'Data' element must be of type JSON.Array or JSON.Object

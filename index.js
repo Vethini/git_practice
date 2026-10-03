@@ -1,0 +1,1 @@
+{"Header":{"RequestId":"REQ10001","Channel":"WEB","RequestDate":"2026-08-21"},"Customer":{"CustomerId":"10001","FirstName":"John","LastName":"Doe","Email":"john.doe@example.com","Mobile":"9876543210","Account":{"AccountNumber":"ACC123456","AccountType":"SAVINGS","Currency":"INR","Balance":25000.50}}}
